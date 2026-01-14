@@ -87,7 +87,8 @@ npm install
 npm run dev
 ```
 
-Open browser 👉 
+Open browser 
+http://localhost:5173/
 
 ---
 
