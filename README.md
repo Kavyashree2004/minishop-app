@@ -1,16 +1,123 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# 🛒 MiniShop – React Shopping App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+MiniShop is a **beginner-friendly frontend shopping website** built using **React + Vite**.
+It demonstrates core React concepts like **routing, state management, components, and basic authentication UI**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+* 🔐 Login & Register (UI-based)
+* 👤 Username stored using LocalStorage
+* 🛍 Product listing with images
+* ➕ Add items to cart
+* 🛒 Cart page with selected items
+* 📦 Checkout page (Address & Phone)
+* ✅ Order success alert
+* 🔓 Logout functionality
+* 🎨 Colorful & responsive UI
+* 🧭 React Router navigation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+* **React (Vite)**
+* **React Router DOM**
+* **JavaScript**
+* **CSS**
+* **LocalStorage**
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├─ assets/          # Images (logo, products)
+ ├─ components/
+ │   └─ Navbar.jsx
+ ├─ pages/
+ │   ├─ Login.jsx
+ │   ├─ Register.jsx
+ │   ├─ Home.jsx
+ │   ├─ Cart.jsx
+ │   └─ Checkout.jsx
+ ├─ App.jsx
+ ├─ main.jsx
+ └─ index.css
+```
+
+---
+
+## ⚙️ Installation & Run Locally
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https:https://github.com/Kavyashree2004/minishop-app
+```
+
+### 2️⃣ Go to project folder
+
+```bash
+cd minishop
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Start development server
+
+```bash
+npm run dev
+```
+
+Open browser 👉 **[http://localhost:5173](http://localhost:5173)**
+
+---
+
+## 🔄 Application Flow
+
+1. User lands on **Login page**
+2. Can navigate to **Register page**
+3. Login stores username in LocalStorage
+4. User redirected to **Home page**
+5. Products displayed with images
+6. Clicking **Add to Cart** adds product
+7. Cart page shows selected items
+8. **Proceed to Buy** → Checkout page
+9. Order confirmation alert shown
+10. **Logout** clears session and redirects to Login
+
+---
+
+## 📌 Future Enhancements
+
+* Quantity selector
+* Remove item from cart
+* Total price calculation
+* Backend authentication
+* Payment gateway integration
+
+---
+
+## 👩‍💻 Author
+
+**Kavyashree N**
+Frontend Developer (Beginner React Project)
+
+---
+
+## ⭐ Acknowledgement
+
+This project was built for **learning React fundamentals** and frontend development.
+
+---
+
+
