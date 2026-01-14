@@ -1,38 +1,48 @@
 
 
-# 🛒 MiniShop – React Shopping App
+🛒 MiniShop – React Shopping App
 
-MiniShop is a **beginner-friendly frontend shopping website** built using **React + Vite**.
-It demonstrates core React concepts like **routing, state management, components, and basic authentication UI**.
+MiniShop is a beginner-friendly frontend shopping website built using React + Vite.
+It demonstrates core React concepts like routing, state management, components, and basic authentication UI.
+
+---
+Live Demo
+
+https://69674116f300a90dbb1a001a--steady-cocada-d95c10.netlify.app/
+---
+ 
+GitHub Repository
+ 
+https://github.com/Kavyashree2004/minishop-app
 
 ---
 
-## 🚀 Features
+Features
 
-* 🔐 Login & Register (UI-based)
-* 👤 Username stored using LocalStorage
-* 🛍 Product listing with images
-* ➕ Add items to cart
-* 🛒 Cart page with selected items
-* 📦 Checkout page (Address & Phone)
-* ✅ Order success alert
-* 🔓 Logout functionality
-* 🎨 Colorful & responsive UI
-* 🧭 React Router navigation
-
----
-
-## 🛠️ Tech Stack
-
-* **React (Vite)**
-* **React Router DOM**
-* **JavaScript**
-* **CSS**
-* **LocalStorage**
+* Login & Register (UI-based)
+*  Username stored using LocalStorage
+*  Product listing with images
+*  Add items to cart
+*  Cart page with selected items
+*  Checkout page (Address & Phone)
+*  Order success alert
+*  Logout functionality
+*  Colorful & responsive UI
+*  React Router navigation
 
 ---
 
-## 📁 Project Structure
+Tech Stack
+
+* React (Vite)
+* React Router DOM
+* JavaScript
+* CSS
+* LocalStorage
+
+---
+
+Project Structure
 
 ```
 src/
@@ -51,34 +61,33 @@ src/
 ```
 
 ---
+Installation & Run Locally
 
-## ⚙️ Installation & Run Locally
-
-### 1️⃣ Clone the repository
+1️⃣ Clone the repository
 
 ```bash
 git clone https:https://github.com/Kavyashree2004/minishop-app
 ```
 
-### 2️⃣ Go to project folder
+2️⃣Go to project folder
 
 ```bash
 cd minishop
 ```
 
-### 3️⃣ Install dependencies
+3️⃣ Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4️⃣ Start development server
+4️⃣ Start development server
 
 ```bash
 npm run dev
 ```
 
-Open browser 👉 **[http://localhost:5173](http://localhost:5173)**
+Open browser 👉 
 
 ---
 
